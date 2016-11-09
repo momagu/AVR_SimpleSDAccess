@@ -8,7 +8,7 @@ To use it, you just need to modify the ports and pins used for the SPI of the MC
 
 Code to acces and write into file. This will overwirite an existing file or create a new one. Not existing directories will be crated.
 
----------------
+```c
 #include "sd_file_access.h"
 
 int main(void){
@@ -17,6 +17,6 @@ int main(void){
     sd_fputcs(file, "KNOWN BUG: The last thing to write will be lost");
     sd_fclose(file);
 }
----------------
+```
 
 Multiple files can be opened at the same time.
