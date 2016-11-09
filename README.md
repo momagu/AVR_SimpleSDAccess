@@ -1,5 +1,5 @@
 # AVR_SimpleSDAccess
-A simple way to access SDCards from AVR mikrocontrollers. Based on Roland Riegels Library.
+A simple way to access SDCards from AVR mikrocontrollers. Based on [Roland Riegels Library](http://www.roland-riegel.de/sd-reader/).
 
 Motivation: I searched through several libs to find one wich i can just use. Most of the ones i found needed another layer (MMC) to work.
 Roland Riegels lib was close, so i used that, and implemented a few funtion to basically work with the SDCard as if you would work with the c FILE.
